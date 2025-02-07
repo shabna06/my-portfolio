@@ -1,0 +1,294 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;  /* Light grey background */
+    color: #333; /* Dark text */
+    line-height: 1.6;
+    padding-top: 60px; /* Space for the fixed navigation */
+}
+
+/* Navigation */
+nav {
+    background-color: #2c3e50; /* Dark Blue */
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #5dade2; /* Light blue hover effect */
+}
+
+/* Hero Section */
+#hero {
+    background: #2c3e50; /* Dark Blue */
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+#hero h1 span {
+    color: #5dade2; /* Light Blue for your name */
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-buttons .btn {
+    background-color: #5dade2; /* Light Blue */
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-buttons .btn:hover {
+    background-color: #2980b9; /* Darker blue hover effect */
+}
+
+/* About Me Section */
+#about {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #fff; /* White background for About section */
+}
+
+#about .about-content {
+    max-width: 50%;
+}
+
+#about h2 {
+    margin-bottom: 20px;
+    color: #2c3e50; /* Dark Blue for section heading */
+}
+
+#about .about-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555; /* Lighter grey text */
+}
+
+.profile-placeholder img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #f7f7f7; /* Light grey background */
+    padding: 50px 0;
+}
+
+#skills h2 {
+    text-align: center;
+    color: #2c3e50; /* Dark Blue */
+    margin-bottom: 30px;
+}
+
+.skills-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.skills-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.skills-table td:first-child {
+    font-weight: bold;
+    background-color: #2c3e50; /* Dark Blue */
+    color: #fff;
+}
+
+.skills-table td:last-child {
+    background-color: #fff; /* White background for skill details */
+}
+
+/* Experience Section */
+#experience {
+    background-color: #fff; /* White background for Experience */
+    color: #333;
+    padding: 50px 0;
+}
+
+#experience h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2c3e50; /* Dark Blue */
+}
+
+.experience-item {
+    margin-bottom: 30px;
+}
+
+.experience-item h3 {
+    font-size: 1.5rem;
+    color: #5dade2; /* Light blue */
+    margin-bottom: 5px;
+}
+
+.experience-item p {
+    margin: 5px 0;
+}
+
+.experience-item ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.experience-item ul li {
+    margin-bottom: 5px;
+}
+
+/* Education Section */
+#education {
+    background-color: #f7f7f7; /* Light grey background */
+    padding: 50px 0;
+}
+
+#education h2 {
+    text-align: center;
+    color: #2c3e50; /* Dark Blue */
+    margin-bottom: 30px;
+}
+
+.education-item h3 {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+.education-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Certifications Section */
+#certifications {
+    background-color: #fff; /* White background for Certifications */
+    padding: 50px 0;
+}
+
+#certifications h2 {
+    text-align: center;
+    color: #2c3e50; /* Dark Blue */
+    margin-bottom: 30px;
+}
+
+#certifications ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+#certifications ul li {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #2c3e50; /* Dark Blue */
+    color: #fff;
+    padding: 50px 0;
+}
+
+#contact h2 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+#contact p {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+#contact a {
+    color: #5dade2; /* Light Blue */
+    text-decoration: none;
+}
+
+#contact a:hover {
+    color: #2980b9; /* Darker blue */
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50; /* Dark Blue */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Back to Top */
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #5dade2; /* Light Blue */
+}
+
+#hero {
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-image {
+    width: 200px; /* Adjust the size of the image */
+    height: 200px;
+    border-radius: 50%; /* Optional: to make the image circular */
+    object-fit: cover;
+    margin-bottom: 20px;
+}
